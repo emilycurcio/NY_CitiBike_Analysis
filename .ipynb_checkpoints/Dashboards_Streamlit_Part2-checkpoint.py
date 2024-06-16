@@ -160,8 +160,7 @@ elif page == 'Interactive map with aggregated bike trips':
     st.header('Aggregated Bike Trips in NYC 2022')
     st.components.v1.html(html_data,height = 1000)
     st.markdown('#### Using the filter on the left hand side of the map, we can check whether the most popular start stations also appear in the most popular trips.')
-    st.markdown('The most popular start stations are:')
-    st.markdown("West St/Chambers St, Broadway/W 58 St as well as 6 Ave/W 33 St. While having the aggregated bike trips filter enabled, we can see that even though 6 Ave/W 33 St is a popular start station, it doesn't account for the most commonly taken trips.")
+    st.markdown("The most popular start stations are West St/Chambers St, Broadway/W 58 St, as well as 6 Ave/W 33 St. While having the aggregated bike trips filter enabled, we can see that even though 6 Ave/W 33 St is a popular start station, it doesn't account for the most commonly taken trips.")
     st.markdown('Some of the most common routes are between 12 Ave/W 40 St, 10 Ave/W 14 St, and West St/Chambers St, which are located along the water, or routes located around the perimeter of Central Park.')
 
 
