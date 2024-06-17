@@ -151,7 +151,7 @@ elif page == 'Most popular stations':
     )
 
     st.plotly_chart(fig, use_container_width = True)
-    st.markdown('From the bar chart it is clear that there are some start stations that are more popular than others - in the top 3 we can see West St/Chambers St, Broadway/W 58 St as well as 6 Ave/W 33 St. There is a significant jump between the highest and lowest bars of the plot, indicating some clear preferences for the leading stations. This is a finding that we could cross reference with the interactive map with aggregated bike trips.')
+    st.markdown('From the bar chart it is clear that there are some start stations that are more popular than others - in the top 3 are West St/Chambers St, Broadway/W 58 St as well as 6 Ave/W 33 St. There is a significant jump between the highest and lowest bars of the plot, indicating some clear preferences for the leading stations. This is a finding that we could cross reference with the interactive map with aggregated bike trips.')
 
 
 ### MAP PAGE: INTERACTIVE MAP WITH AGGREGATED BIKE TRIPS
@@ -168,7 +168,7 @@ elif page == 'Interactive map with aggregated bike trips':
     st.header('Aggregated Bike Trips in NYC 2022')
     st.components.v1.html(html_data,height = 1000)
     st.markdown('#### Using the filter on the left hand side of the map, we can check whether the most popular start stations also appear in the most popular trips.')
-    st.markdown("The most popular start stations are West St/Chambers St, Broadway/W 58 St, as well as 6 Ave/W 33 St. While having the aggregated bike trips filter enabled, we can see that even though 6 Ave/W 33 St is a popular start station, it doesn't account for the most commonly taken trips.")
+    st.markdown("The most popular start stations are West St/Chambers St, Broadway/W 58 St, as well as 6 Ave/W 33 St. While having the aggregated bike trips filter enabled, it is apparent that even though 6 Ave/W 33 St is a popular start station, it doesn't account for the most commonly taken trips.")
     st.markdown('Some of the most common routes are between 12 Ave/W 40 St, 10 Ave/W 14 St, and West St/Chambers St, which are located along the water, or routes located around the perimeter of Central Park.')
 
 
@@ -211,6 +211,6 @@ else:
     st.image(bikes)
     st.markdown('Source: https://nycdotbikeshare.info/news-and-events/citi-bike-launch-nyc')
     st.markdown('### Our analysis has shown that NY CitiBikes should focus on the following objectives moving forward:')
-    st.markdown('- There is a clear correlation between temperature and bike trips. We recommend ensuring that stations are fully stocked during the warmer months in order to meet the higher demand, but to provide a lower supply in winter and late autumn to reduce cost.')
-    st.markdown('- There is a clear popularity among the stations along the water and around Central Park. We recommend adding bikes and bike parking to these locations.')
-    st.markdown('- We found that classic bikes are rented over 2.5 times more often than electric bikes due to limited electric bike availability. We recommend incorporating more electric bikes into circulation when new bikes are added.')
+    st.markdown('- There is a clear correlation between temperature and bike trips. I recommend ensuring that stations are fully stocked during the warmer months in order to meet the higher demand, but to provide a lower supply in winter and late autumn to reduce cost.')
+    st.markdown('- There is a clear popularity among the stations along the water and around Central Park. I recommend adding bikes and bike parking to these locations.')
+    st.markdown('- Classic bikes are rented over 2.5 times more often than electric bikes due to limited electric bike availability. I recommend incorporating more electric bikes into circulation when new bikes are added.')
