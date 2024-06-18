@@ -4,3 +4,4 @@ matplotlib == 3.7.1
 streamlit_keplergl
 numerize == 0.12
 pillow == 9.4.0
+numpy == 1.26.4
